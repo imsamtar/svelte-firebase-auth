@@ -1,0 +1,41 @@
+{
+  "name": "svelte-firebase-auth",
+  "version": "0.0.0-0",
+  "description": "Svelte Firebase Auth",
+  "svelte": "src/index.js",
+  "module": "src/index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imsamtar/svelte-firebase-auth.git"
+  },
+  "keywords": [
+    "svelte",
+    "firebase",
+    "auth"
+  ],
+  "author": "SAMEER TARIQ <imsamtar@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imsamtar/svelte-firebase-auth/issues"
+  },
+  "homepage": "https://github.com/imsamtar/svelte-firebase-auth#readme",
+  "dependencies": {
+    "@firebase/app": "^0.6.7",
+    "@firebase/auth": "^0.14.7"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^8.1.0",
+    "rollup": "^2.19.0",
+    "rollup-plugin-svelte": "^5.2.3",
+    "svelte": "^3.23.2"
+  }
+}
